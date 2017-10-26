@@ -1,4 +1,4 @@
-#This is a simple application to calculate your weight on other planets. 
+# This is a simple application to calculate your weight on other planets. 
 
 Usage is quite simple. Type in your weight (in pounds), select your planet, and press calculate.
 
