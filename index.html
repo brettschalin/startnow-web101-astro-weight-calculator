@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Astro Weight Calculator</title>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Bootstrap requirements -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="large-header">Astronomical Weight Calculator</h1>
+      <h4 class="small-header">This is a simple tool to calculate your weight on other celestial bodies</h4>
+      <h4 class="small-header">To get started, type your weight, select your planet, and press the Calculate button.</h4>
+    </div>
+
+    <br>
+    <br>
+
+    
+     <div class="container">
+      <input id="user-weight" type="text" placeholder="Weight (lbs)" />
+      <select id="planets"></select>
+      <button class="btn btn-primary" id="calculate-button">Calculate</button>
+      <p id="output"></p>
+      <input id="pluto-killer" type="checkbox"/>
+      <label id="pluto-label" for="pluto-killer">Adhere to IAU definitions and remove Pluto from the planet list</label>
+      <!-- RIP Pluto. You will never be forgotten -->
+    </div>
+
+    <br>
+    <br>
+
+    <div class="container">
+      <input id="new-planet-input" type="text" placeholder="Planet Name"/>
+      <input id="input-multiplier" type="text" placeholder="Multiplier"/>
+      <button class="btn" id="input-button">Add Planet</button>
+    </div>
+
+
+    <script src="main.js" charset="utf-8"></script>
+  </body>
+</html>
